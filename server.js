@@ -23,7 +23,7 @@ app.get('/', (req, res) => {
   });
 
 
-port = process.env.PORT || 5678
+// port = process.env.PORT || 5678
 var listener = app.listen(port); //start the server
 console.log('Server is running...');
 
